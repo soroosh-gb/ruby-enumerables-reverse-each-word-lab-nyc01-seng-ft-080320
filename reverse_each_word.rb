@@ -2,7 +2,7 @@ def reverse_each_word(str)
   rev = ""
   arr = str.split
   arr.each do |x|
-    rev += x.reverse + " "
+    rev += x.reverse
   end
   rev
 end
